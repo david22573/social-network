@@ -2,10 +2,10 @@
     <div class="max-w-7xl mx-auto grid grid-cols-2 gap-4">
         <div class="main-left">
             <div class="p-12 bg-white border border-gray-200 rounded-lg">
-                <h1 class="mb-6 text-xl">Log in</h1>
+                <h1 class="mb-6 text-xl font-bold">Log in</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis hic consequuntur, mollitia natus repudiandae quos deleniti laudantium aliquam officiis sint suscipit blanditiis expedita repellat eligendi ipsa nostrum architecto quas quae.</p>
-                <p class="font-bold">
-                    Don't have an account? <a href="#" class="underline">Click here</a> to log create one!
+                <p class="font-bold py-12">
+                    Don't have an account? <RouterLink :to="{'name': 'signup'}" class="underline">Click here</RouterLink> to log create one!
                 </p>
             </div>
         </div>

@@ -4,8 +4,8 @@
             <div class="p-12 bg-white border border-gray-200 rounded-lg">
                 <h1 class="mb-6 text-xl font-bold">Sign Up</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis hic consequuntur, mollitia natus repudiandae quos deleniti laudantium aliquam officiis sint suscipit blanditiis expedita repellat eligendi ipsa nostrum architecto quas quae.</p>
-                <p class="font-bold py-20">
-                    Already have an account? <a href="#" class="underline">Click here</a> to log in!
+                <p class="font-bold py-12">
+                    Already have an account? <RouterLink :to="{'name': 'login'}" class="underline">Click here</RouterLink> to log in!
                 </p>
             </div>
         </div>
